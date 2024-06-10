@@ -35,11 +35,11 @@ Predicting stock prices is a challenging task due to the volatile nature of fina
    git clone https://github.com/Sambhavi-Roy/Stock-Price-Prediction.git
 
 2. Navigate to the project directory:
-   '''bash
+   ```bash
   cd stock-price-prediction
 
 3. Install the required packages:
-  '''bash
+   ```bash
   pip install numpy pandas scikit-learn
 
 
@@ -49,7 +49,7 @@ Predicting stock prices is a challenging task due to the volatile nature of fina
   Ensure the HINDUNILVR.NS.csv file is placed in the project directory or provide the correct path to the file.
 
 2. Run the script:
-  '''bash
+   ```bash
   python stock_prediction.py
 
 3. The script will:
@@ -62,21 +62,22 @@ Predicting stock prices is a challenging task due to the volatile nature of fina
 ## Results
 
 - Linear Regression:
-  Training MSE: 7208.711195733958
-  Validation MSE: 11596.274163636783
+  - Training MSE: 7208.711195733958
+  - Validation MSE: 11596.274163636783
   
 - Support Vector Regression (SVR):
-  Training MSE: 2.0018210112496108e+16
-  Validation MSE: 2.0028674246510212e+16
+  - Training MSE: 2.0018210112496108e+16
+  - Validation MSE: 2.0028674246510212e+16
   
 - Random Forest Regressor:
-  Training MSE: 167.12545276674126
-  Validation MSE: 557.8318999397642
+  - Training MSE: 167.12545276674126
+  - Validation MSE: 557.8318999397642
 
 
 - Example Prediction
   To predict the stock price for a specific future date, update the future_date variable in the script and run the predictions:
-  
+
+  ```bash
   future_date = np.array([20240607]).reshape(-1, 1)  # Change the date accordingly
   predicted_price = model.predict(future_date)
   print("Predicted Stock Price:", predicted_price[0])
