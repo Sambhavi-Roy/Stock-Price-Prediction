@@ -36,11 +36,11 @@ Predicting stock prices is a challenging task due to the volatile nature of fina
 
 2. Navigate to the project directory:
    ```bash
-  cd stock-price-prediction
+   cd Stock-Price-Prediction
 
 3. Install the required packages:
    ```bash
-  pip install numpy pandas scikit-learn
+   pip install numpy pandas scikit-learn
 
 
 ## Usage
@@ -50,7 +50,7 @@ Predicting stock prices is a challenging task due to the volatile nature of fina
 
 2. Run the script:
    ```bash
-  python stock_prediction.py
+   python stock_prediction.py
 
 3. The script will:
   - Load and preprocess the data
